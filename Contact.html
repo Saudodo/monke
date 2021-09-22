@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monkeys - Full of life</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/7058c5a731.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--header-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">VIDEOS</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+
+
+
+<!-- Contact us content-->
+<section class="loc">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2627.3072429027675!2d40.26201194090552!3d21.36731042337982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e4b02c6dbf08c48!2sMonkey%20View%20Point!5e0!3m2!1sar!2ssa!4v1632318690394!5m2!1sar!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<section class="conta">
+    <div class="row">
+        <div class="conta-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Al-Hada Road , Monkey Site</h5>
+                    <p>You Know where is hada monkeys lol</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+966 500098566</h5>
+                    <p>24/7 Expect morning bcz im in college mf</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>info@monkeyexp.com</h5>
+                    <p>Send some Memes pls</p>
+                </span>
+            </div>
+        </div>
+        <div class="conta-col">
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your email" required>
+                <textarea rows="8" placeholder="Message,i will read it "required></textarea>
+                <button type="submit"class="hero-btn btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <P>We Are here to offer you The Funniest Experience of all the time <br> Follow us </P>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-twitch"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+    <p>Made With <i class="fa fa-hamburger"> Saud aka"PainCakes"</i></p>
+</section>
+
+
+
+<!--JavaScript for toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
