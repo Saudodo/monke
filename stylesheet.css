@@ -406,3 +406,55 @@ h3 {
   text-align: center;
   color: #fff;
 }
+/*---Courses page--*/
+.cosp {
+  width: 80%;
+  margin: 80px auto;
+  text-align: center;
+}
+.cosp-col-img1 img {
+  width: 87%;
+  padding: 30px;
+}
+.cosp-col {
+  margin: 30px 20px 25px;
+}
+.cosp-col h3 {
+  font-size: 34px;
+}
+.cosp-col-img2 img {
+  padding: 40px;
+}
+.cosp-col-img3 img {
+  padding: 31px 87px;
+}
+@media (max-width: 800px) {
+  .cosp-col-img1 img {
+    width: 80%;
+  }
+  .cosp-col-img2 img {
+    width: 80%;
+    padding-left: 30px;
+  }
+  .cosp-col-img3 img {
+    margin-top: 55px;
+    width: 80%;
+    padding: 1px 30px;
+  }
+  .cosp-col {
+    margin: 20px 0 25px;
+  }
+}
+.cf {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(199, 138, 6, 0.2),
+      rgba(199, 138, 6, 0.2)
+    ),
+    url(img/mone.gif);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
