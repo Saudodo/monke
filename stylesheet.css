@@ -477,19 +477,6 @@ h3 {
   pointer-events: none;
   transition: all 0.5s;
 }
-.cf {
-  height: 50vh;
-  width: 100%;
-  background-image: linear-gradient(
-      rgba(199, 138, 6, 0.2),
-      rgba(199, 138, 6, 0.2)
-    ),
-    url(img/mone.gif);
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  color: #fff;
-}
 .to-top.active {
   bottom: 32px;
   pointer-events: auto;
