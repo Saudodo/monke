@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monkeys - Full of life</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/7058c5a731.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--header-->
+    <section class="sub-header cf">
+      <nav>
+        <a href="index.html"><img src="img/logo2.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Courses.html">COURSE</a></li>
+            <li><a href="Videos.html">VIDEOS</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+    <a href="#" class="to-top">
+      <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+    <!--Courses-->
+    <section class="cosp">
+      <h1>We Offer you 3 Ultimate Courses!!!</h1>
+      <div class="row vow">
+        <div class="cosp-col-img1">
+          <img src="img/alphamonke.jpg" />
+        </div>
+        <div class="cosp-col">
+          <h3>Alpha Male Monkey!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+            aliquid amet quaerat fuga? Ducimus magni eius doloribus modi facere
+            numquam accusamus asperiores hic eveniet itaque, earum at?
+            Voluptatum, fugit accusamus!
+          </p>
+          <a href="" class="hero-btn btn">Buy 59.99$</a>
+        </div>
+      </div>
+      <div class="row vow">
+        <div class="cosp-col-img2">
+          <img src="img/sog1.jpg" />
+        </div>
+        <div class="cosp-col">
+          <h3>Sigma Male Monkey!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quae
+            nulla, a corrupti laborum, sed repellat veritatis ratione alias nam
+            dignissimos, delectus excepturi. Eos maiores possimus veniam
+            numquam! Eum, nostrum?
+          </p>
+          <a href="" class="hero-btn btn">Buy 29.99$</a>
+        </div>
+      </div>
+      <div class="row vow">
+        <div class="cosp-col-img3">
+          <img src="img/fot.jpg" />
+        </div>
+        <div class="cosp-col">
+          <h3>Beta Fat Monkey</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            iure impedit, expedita at nostrum veritatis odio eligendi in? Nobis
+            error ipsum autem amet dignissimos. Ab libero reiciendis ad atque
+            beatae!
+          </p>
+          <a href="" class="hero-btn btn">Buy 9.99$</a>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        We Are here to offer you The Funniest Experience of all the time <br />
+        Follow us
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-twitch"></i>
+        <i class="fa fa-whatsapp"></i>
+      </div>
+      <p>Made With <i class="fa fa-hamburger"> Saud aka"PainCakes"</i></p>
+    </section>
+
+    <!--JavaScript for toggle menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+      const toTop = document.querySelector(".to-top");
+
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 750) {
+          toTop.classList.add("active");
+        } else {
+          toTop.classList.remove("active");
+        }
+      });
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
