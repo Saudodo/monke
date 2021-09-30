@@ -482,3 +482,8 @@ h3 {
   pointer-events: auto;
   opacity: 1;
 }
+@media (max-width: 800px) {
+  .to-top {
+    display: none;
+  }
+}
